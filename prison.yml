@@ -1,0 +1,9 @@
+---
+
+all:
+  hosts:
+    clientwindows1:
+      ansible_shell_type: cmd
+      ansible_host: 192.168.2.166
+      ansible_user: ec2lt
+      ansible_pass: P@seer123/

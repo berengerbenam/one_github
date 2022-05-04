@@ -1,0 +1,7 @@
+---
+
+- name: creer un repertoire
+  file:
+    path: /tmp/bouki/
+    state: directory
+    

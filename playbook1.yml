@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+
+  tasks: 
+  - name: "creer un repertoire"
+    file:
+      path: /tmp/beranger/one_ansible
+      state: directory
+      owner: root

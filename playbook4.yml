@@ -1,0 +1,11 @@
+---
+
+- hosts: all
+
+  tasks: 
+  - name: "install asterisk"
+    apt:
+      name: asterisk
+      update_cache: yes
+      state: present 
+
